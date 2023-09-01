@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hector Caro</title>
+    <link rel="shortcut icon" href="medios/logo.svg" type="image/x-icon">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" id="fileCss" href="css/Style.css">
+</head>
+
+<body>
+
+    <div class="tema-color">
+        <button class="open-panel" onclick="activarPanel()">Colores</button>
+        <div class="cont-colores">
+            <button onclick="principal()"></button>
+            <button onclick="negro()"></button>
+        </div>
+    </div>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg prueba w-100">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="medios/logo.svg" class="logo" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobremi">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portafolio">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="redes" data-aos="fade-down" data-aos-duration="1000">
+                            <a href="https://github.com/Hector-Caro?tab=packages" target="_blank"><img
+                                    src="medios/github.svg" class="imgR" alt=""></a>
+                            <a href=""><img src="medios/linkedin.svg" class="imgR" alt=""></a>
+                            <a href=""><img src="medios/instagram.svg" class="imgR" alt=""></a>
+                            <a href="https://walink.co/ddb01b" target="_blank"><img src="medios/whatsapp.svg"
+                                    class="imgR" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="info" data-aos="fade-down" data-aos-duration="1000">
+                            <h2>Hola, mi nombre es <strong>Hector 👋</strong></h2>
+                            <p class="p1">Desarrollador de <span id="element"></span></p>
+                            <p class="p2">Desarrollador de Software creativo y apasionado. Especializado en creación de
+                                sitios web
+                                y aplicaciones funcionales con enfoque en diseño atractivo y experiencia de usuario
+                                intuitiva.
+                            </p>
+
+                            <div class="container2">
+                                <a href="#contacto" class="button2">
+                                    <div class="button__content2">
+                                        <span class="button__text2">Contáctame</span>
+                                        <i class="ri-send-plane-fill"></i>
+
+                                        <div class="button__reflection-12"></div>
+                                        <div class="button__reflection-22"></div>
+                                    </div>
+
+                                    <div class="button__shadow2"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="boton">
+                            <a href="#sobremi"><img src="medios/raton.svg" class="raton" alt=""> Ir abajo <img
+                                src="medios/flecha.svg" class="flecha" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="foto" data-aos="fade-down" data-aos-duration="1000">
+                            <img src="medios/foto.svg" class="img-fluid foto1" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobremi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="sobreMi" data-aos="fade-right" data-aos-duration="1000">
+                            <h2>Sobre Mí</h2>
+                            <p class="p2">
+                                Soy Héctor, un talentoso desarrollador de software especializado en HTML, CSS y
+                                JavaScript.
+                                Mi enfoque principal es crear experiencias web cautivadoras y optimizadas para los
+                                usuarios.
+                                Además, tengo conocimientos básicos en ciberseguridad, lo que me permite desarrollar
+                                soluciones seguras y proteger la información confidencial. Mi combinación de habilidades
+                                técnicas y conciencia de seguridad me posiciona para ofrecer aplicaciones web de alta
+                                calidad y protegidas contra amenazas cibernéticas.
+                            </p>
+                            <div class="container1">
+                                <a href="medios/hojaDeVida.pdf" class="button" download="Curriculum - HectorCaro">
+                                    <div class="button__content">
+                                        <span class="button__text">Descargar Cv</span>
+                                        <i class="ri-file-download-fill button__icon"></i>
+
+                                        <div class="button__reflection-1"></div>
+                                        <div class="button__reflection-2"></div>
+                                    </div>
+
+                                    <img src="medios/star.png" alt="" class="button__star-1">
+                                    <img src="medios/star.png" alt="" class="button__star-2">
+                                    <img src="medios/circle.png" alt="" class="button__circle-1">
+                                    <img src="medios/circle.png" alt="" class="button__circle-2">
+                                    <img src="medios/diamond.png" alt="" class="button__diamond-1">
+                                    <img src="medios/triangle.png" alt="" class="button__triangle-1">
+                                    <div class="button__shadow"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="imgSM" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="medios/sobremi.svg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5" data-aos="fade-right" data-aos-duration="3000">
+                        <div class="Pp">
+                            <h2>Perfil Profesional</h2>
+                            <p class="p2">
+                                Los Tecnólogos en Análisis y Desarrollo de Software pueden desempeñar sus conocimientos
+                                en
+                                empresas y organizaciones dedicadas al desarrollo de aplicaciones informáticas, así como
+                                en
+                                empresas que requieran profesionales para el diseño y desarrollo de programas, soporte
+                                técnico, mantenimiento de sistemas, entre otros.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-7" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="imgPp">
+                            <img src="medios/Pp.svg" class="img-fluid Pp1" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">  
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center hb">Habilidades</h2>
+                    <div class="col-md-4 Hb11">
+                        <div class="Hb1">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <img src="medios/llaves.svg" class="imgHb" alt="">Front-End
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+
+                                        <div class="accordion-body prueba3">
+                                            <div class="p3">
+                                                <p>HTML</p>
+                                                <p class="porcentaje">90%</p>
+                                            </div>
+                                            <div class="progress" role="progressbar" aria-label="Success example"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                style="height: 4px;">
+                                                <div class="progress-bar bg-success" style="width: 90%"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-body">
+                                            <div class="p3">
+                                                <p>CSS</p>
+                                                <p class="porcentaje2">80%</p>
+                                            </div>
+                                            <div class="progress" role="progressbar"
+                                                aria-label="Default striped example" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100" style="height: 4px;">
+                                                <div class="progress-bar" style="width: 80%"></div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-body">
+                                            <div class="p3">
+                                                <p>JS</p>
+                                                <p class="porcentaje3">30%</p>
+                                            </div>
+                                            <div class="progress" role="progressbar" aria-label="Warning example"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                style="height: 4px;">
+                                                <div class="progress-bar bg-warning" style="width: 30%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 Hb11">
+                        <div class="Hb1">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <img src="medios/back-end.svg" class="imgHb" alt="">Back-end
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="p3">
+                                                <p>PHP</p>
+                                                <p class="porcentaje2">20%</p>
+                                            </div>
+                                            <div class="progress" role="progressbar" aria-label="Success example"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                style="height: 4px">
+                                                <div class="progress-bar" style="width: 20%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 Hb11">
+                        <div class="Hb1">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            <img src="medios/database.svg" class="imgHb" alt="">Bases de Datos
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="p3">
+                                                <p>MySQL</p>
+                                                <p class="porcentaje4">40%</p>
+                                            </div>
+                                            <div class="progress" role="progressbar" aria-label="Success example"
+                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                style="height: 4px">
+                                                <div class="progress-bar" style="width: 40%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="exp text-center">Experiencia</h2>
+                <div class="row">
+                    <section class="timeline-section">
+
+                        <div class="timeline-nav btnsExp">
+                            <button id="education-btn" class="active">
+                                <img src="medios/image 1.svg" class="btnH" alt=""> Educación
+                            </button>
+                            <button id="work-btn">
+                                <img src="medios/trabajo.svg" class="btnH2" alt=""> Trabajo
+                            </button>
+                        </div>
+
+                        <div id="education-section" class="timeline-items infoExp">
+                            <div class="timeline-item colegio">
+                                <div class="timeline-dot"></div>
+
+                                <div class="timeline-content">
+                                    <h3>Bachillerato</h3>
+                                    <h3 class="pruebalt">Colegio Ciudad de Bogotá D.C.</h3>
+                                    <p>
+                                        Bogotá D.C.
+                                    </p>
+                                    <div class="timeline-date fecha">2016 - 2021</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item sena">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h3>Tecnologo en Analisis y Desarrollo de Software (ADSO)</h3>
+                                    <h3 class="sena2">SENA</h3>
+                                    <p>Bogotá D.C.</p>
+                                    <div class="timeline-date fecha">2022 - 2023</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="work-section" class="timeline-items" style="display: none;">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+
+                                <div class="timeline-content">
+                                    <h3>N/A</h3>
+                                    <p>
+                                        N/A
+                                    </p>
+                                    <div class="timeline-date">N/A</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date"></div>
+                                <div class="timeline-content">
+                                    <h3>N/A</h3>
+                                    <p>N/A</p>
+                                    <div class="timeline-date">N/A</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section id="portafolio">
+            <div class="container">
+                <h2 class="exp">Portafolio</h2>
+                <p>Proyectos Desarrollados</p>
+
+                <div class="row">
+                    <div class="col-md-4 card-servicios">
+                        <img src="medios/img1.svg" alt="" class="w-100">
+                        <h3>Web Trilogy</h3>
+                        <a href="https://mf83ys-5000.csb.app/trabajo/HTML/inicio" target="_blank">
+                            Visitar <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-4 card-servicios">
+                        <img src="" alt="" class="w-100">
+                        <h3>SAR</h3>
+                        <a href="">
+                            Visitar <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container">
+                <div class="row contenedorC">
+                    <h2 class="exp2 text-center">Contáctame</h2>
+                    <div class="col-md-4">
+                        <div class="row contacto1">
+                                <div class="col-md-2 telefono">
+                                    <img src="medios/telefono.svg" alt="">
+                                </div>
+                                <div class="col-md-10 telefono T2">
+                                    <h4>Telefono</h4>
+                                    <a href="https://walink.co/ddb01b" class="telefono1" target="_blank">+57 322 440 1981</a>
+                                </div>
+                                <div class="col-md-2 correo">
+                                    <img src="medios/gmail.svg" alt="">
+                                </div>
+                                <div class="col-md-10 correo C2">
+                                    <h4>Correo</h4>
+                                    <a href="mailto:hectocaro722@gmail.com" class="correo1">hectocaro722@gmail.com</a>
+                                </div>
+                                <div class="col-md-2 ubicacion">
+                                    <img src="medios/ubicacion.svg" alt="">
+                                </div>
+                                <div class="col-md-10 ubicacion U2">
+                                    <h4>Ubicación</h4>
+                                    <p class="ubicacion1">Colombia, Bogotá D.C.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="basic-elements formulario">
+                            <form action="https://formsubmit.co/hectorcaro722@gmail.com" method="POST" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="form-group col-md-6 nombre">
+                                        <input type="text" class="form-control form1" placeholder="Nombres" name="nombres">
+                                    </div>
+                                    <div class="form-group col-md-6 Correo">
+                                        <input type="email" class="form-control form1" placeholder="Correo" name="correo">
+                                    </div>    
+                                    <div class="form-group col-md-12 mensaje">
+                                        <textarea class="form-control form11" placeholder="Mensaje" id="floatingTextarea2" name="mensaje"></textarea>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btnC">Enviar</button>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                                    <input type="hidden" name="_captcha" value="false">
+                                </div>
+                            </form>
+                        </div>
+                    </div>    
+                </div>
+                
+            </div>  
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9 infoF1">
+                    <div class="infoF">
+                        <h3>Hector C.</h3>
+                        <span>Desarrollador de Software</span>
+                    </div>
+                </div>
+                <div class="col-md-3 redesF">
+                    <img src="medios/instagram.svg" class="imgF" alt="">
+                    <img src="medios/github.svg" class="imgF" alt="">
+                    <img src="medios/linkedin.svg" class="imgF" alt="">
+                </div>
+                <div class="col-md-12 text-center copy">
+                    <span>© Hector. Todos los derechos reservados</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scroll up -->
+
+    <a href="#inicio" class="scroll" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <!-- animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Typed -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Main -->
+    <script src="js/Main.js"></script>
+</body>
+
+</html>
